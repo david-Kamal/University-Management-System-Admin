@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ExamsActivity">
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:text="Subject"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+        <!--<EditText-->
+        <!--android:hint="Subject Name"-->
+        <!--android:id="@+id/subjectNameEditText"-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="wrap_content" />-->
+
+        <Spinner
+            android:id="@+id/examsSubjectSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:text="Date"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+        <EditText
+            android:drawableStart="@drawable/ic_date"
+            android:hint="Date"
+            android:drawablePadding="8dp"
+            android:id="@+id/subjectDateEditText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_date" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:text="Time"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+        <EditText
+            android:drawablePadding="@dimen/padding_8dp"
+            android:drawableStart="@drawable/ic_timer"
+            android:inputType="time"
+            android:hint="Time"
+            android:id="@+id/subjectTimeEditText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_timer" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"/>
+
+        <!--<Button-->
+        <!--android:onClick="addExam"-->
+        <!--android:id="@+id/addBtn"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:textSize="30sp"-->
+        <!--android:text="ADD"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="wrap_content" />-->
+
+        <Button
+            android:onClick="addExam"
+            android:id="@+id/addBtn"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="55dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-4dp"
+            android:background="@drawable/btn_rounded_green_300"
+            android:text="ADD"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

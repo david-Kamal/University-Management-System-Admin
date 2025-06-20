@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+
+        >
+
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <LinearLayout
+                android:onClick="StudentRegistration"
+                android:layout_width="205dp"
+                android:background="@color/cyan_100"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/grey_3"
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:text="Student\n Registration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <!--<View-->
+            <!--android:layout_width="5dp"-->
+            <!--android:layout_height="0dp" />-->
+            <LinearLayout
+                android:onClick="TimeTable"
+                android:layout_width="205dp"
+                android:background="@color/cyan_200"
+
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/grey_10"
+
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:text="Time Table"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--<View-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="10dp"/>-->
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <LinearLayout
+                android:onClick="Exams"
+                android:background="@color/cyan_200"
+
+                android:layout_width="205dp"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/grey_10"
+
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:text="Exams"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="Attendance"
+                android:background="@color/cyan_300"
+
+                android:layout_width="205dp"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/grey_10"
+
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:text="Attendance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <!--<View-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="10dp"/>-->
+
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <LinearLayout
+                android:onClick="Doctor"
+                android:background="@color/cyan_400"
+
+                android:layout_width="205dp"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/grey_10"
+
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:text="Add Doctor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="InsertSubject"
+                android:background="@color/cyan_500"
+
+                android:layout_width="205dp"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="@color/grey_20"
+
+                    android:text="Add Doctor Subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--<View-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="10dp"/>-->
+
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <LinearLayout
+                android:onClick="AddSubjects"
+                android:layout_width="205dp"
+                android:background="@color/cyan_600"
+
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="@color/grey_40"
+
+                    android:text="Add Subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:onClick="Results"
+                android:background="@color/cyan_700"
+
+                android:layout_width="205dp"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/grey_60"
+
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:text="Results"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--<View-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="10dp"/>-->
+
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <LinearLayout
+                android:onClick="AddAdmin"
+                android:background="@color/cyan_800"
+                android:layout_width="205dp"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/grey_80"
+
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:text="Add Admin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+            <!--android:onClick="TimeTable"-->
+            <!--android:layout_width="205dp"-->
+            <!--android:background="@color/cyan_900"-->
+            <!--android:layout_height="match_parent">-->
+
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="63dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Time \nTable"-->
+            <!--android:textColor="@color/grey_90"-->
+            <!--android:textSize="30sp" />-->
+
+            <!--</LinearLayout>-->
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

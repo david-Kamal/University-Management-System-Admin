@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".InsertDoctorActivity">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp"
+                android:text="Doctor Name"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="30dp"/>
+
+            <EditText
+                android:drawableStart="@drawable/ic_create_black_24dp"
+                android:drawablePadding="@dimen/padding_8dp"
+                android:id="@+id/insertdocname"
+                android:hint="Insert doctor's name"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:drawableLeft="@drawable/ic_create_black_24dp" />
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="60dp"/>
+
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp"
+                android:text="Degree"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="30dp"/>
+
+            <EditText
+                android:id="@+id/insertdocdegree"
+                android:hint="Insert doctor's degree"
+                android:layout_width="300dp"
+                android:layout_height="60dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="80dp"/>
+
+            <Button
+                android:onClick="insertDoctor"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:text="Submit"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                style="@style/style_button"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

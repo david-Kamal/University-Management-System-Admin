@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".InsertDoctorSubjectActivity">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="25sp"
+                android:text="Subjects"
+                android:layout_width="match_parent"
+                android:layout_height= "40dp"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="20dp"/>
+
+            <Spinner
+                android:id="@+id/subjectSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp">
+            </Spinner>
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="30dp"/>
+
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="25sp"
+                android:text="Choose Doctor"
+                android:layout_width="match_parent"
+                android:layout_height= "40dp"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="30dp"/>
+
+
+            <Spinner
+                android:id="@+id/doctorSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp">
+            </Spinner>
+
+
+
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="50dp"/>
+
+            <!--<Button-->
+            <!--android:onClick="Insertdoctorsubject"-->
+            <!--android:id="@+id/addBtn"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textSize="30sp"-->
+            <!--android:text="ADD"-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="wrap_content" />-->
+
+            <Button
+                android:onClick="Insertdoctorsubject"
+                android:id="@+id/addBtn"
+                android:text="ADD"
+                android:layout_width="200dp"
+                style="@style/style_button" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

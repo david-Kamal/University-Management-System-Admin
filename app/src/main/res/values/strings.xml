@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Modern Academy Student Affairs Admin</string>
+
+    <string name="modern_academy">Modern Academy</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="password">PASSWORD</string>
+    <string name="username">USERNAME</string>
+    <string name="registration">Registration</string>
+    <string name="register_your_subjects">Register your subjects</string>
+    <string name="time_table">Time Table</string>
+    <string name="check_your_time_table">Check your time table</string>
+    <string name="contact_the_supervisor_ofthe_subject">Contact the supervisor ofthe subject</string>
+    <string name="links">Links</string>
+    <string name="check_your_bank_activities">Check your bank activities</string>
+    <string name="about">About</string>
+    <string name="about_the_app">About the App</string>
+    <string name="about_text">The best android implementation of material UI components. This app implemented based on Google Design Guidelines.</string>
+    <string name="logout_successful">Logout Successful</string>
+    <string name="profile">Profile</string>
+
+    <string-array name="subject_array">
+        <item>OOP</item>
+        <item>Data Structure</item>
+        <item>Logic Programming</item>
+        <item>Networks</item>
+        <item>Security</item>
+        <item>Multimedia</item>
+        <item>Neural Networks</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>الفرقة الاولى</item>
+        <item>الفرقة الثانية</item>
+        <item>الفرقة الثالثة</item>
+        <item>الفرقة الرابعة</item>
+    </string-array>
+
+    <string-array name="doctor_array">
+        <item>Mohamed Awad</item>
+        <item>Abbas Rostom</item>
+        <item>Lamia</item>
+        <item>Dina</item>
+        <item>Sherif Moharam</item>
+        <item>Safy</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="log_out">Log out</string>
+    <string name="registrationStudentName">Insert student\'s name</string>
+    <string name="student_name">Student Name</string>
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".AddUserActivity">
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Admin Name"
+            android:textSize="25sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/adminNameEditText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_person"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="8dp"
+            android:hint="Admin Name" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="User Name"
+            android:textSize="25sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/adminUserEditText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_create_black_24dp"
+            android:drawableLeft="@drawable/ic_create_black_24dp"
+            android:drawablePadding="8dp"
+            android:hint="Admin's username" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp" />
+
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Password"
+            android:textSize="25sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/adminPassEditText"
+            android:layout_width="300dp"
+            android:drawablePadding="@dimen/padding_8dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawableLeft="@drawable/ic_lock"
+            android:hint="Admin's password"
+            android:inputType="textPassword"
+             />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/addBtn"
+            style="@style/style_button"
+            android:onClick="addUser"
+            android:text="Add" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
